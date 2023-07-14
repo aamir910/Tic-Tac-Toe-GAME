@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0 ;
+}
+body
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(dark-hexagonal-background-with-gradient-color_79603-1409.avif)
+  /* background-color: black; */
+}
+.game
+{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+
+  flex-direction: column;
+}
+.row
+{
+  display: flex;
+}
+.squares
+{
+  width: 8rem;
+  height: 8rem;
+  font-size: 7rem;
+}
+button.squares[data-pro="X"] {
+  color: red;
+  }
+  
+  button.squares[data-pro="O"] {
+    color: green;
+  }
